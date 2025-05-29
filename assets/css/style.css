@@ -27,7 +27,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:var(--secondary-font);
 }
-.sub-heading-color h1, h2, h3 {
+.sub-heading-color h1, h2, h3,h4,h5, h6 {
 
  color: var(--highlight-color);
 }
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navbar Styles */
 
 #navbar {
-    
+
     background-color: var(--primary-color);
 }
 
