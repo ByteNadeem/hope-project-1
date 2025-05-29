@@ -1,0 +1,12 @@
+.navbar-custom {
+    color: black;
+}
+
+.navbar-custom .nav-link {
+    color: black;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
