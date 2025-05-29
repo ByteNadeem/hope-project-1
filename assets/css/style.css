@@ -27,13 +27,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:var(--secondary-font);
 }
-.sub-heading-color {
-    color: var(--highlight-color);
+.sub-heading-color h1, h2, h3 {
+
+ color: var(--highlight-color);
 }
 
 /* Navbar Styles */
 
 #navbar {
+    
     background-color: var(--primary-color);
 }
 
