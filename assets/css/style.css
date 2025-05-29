@@ -1,9 +1,12 @@
+/*Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 .navbar-custom {
-    color: black;
+    color: blue;
 }
 
 .navbar-custom .nav-link {
-    color: black;
+    color: blue;
 }
 
 .navbar-custom .nav-link.active {
