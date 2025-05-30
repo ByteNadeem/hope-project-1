@@ -8,4 +8,4 @@ The live link can be found here: [Hope - Mental Health Awareness](https://bytena
 Hope-Mental Health Awareness is a fully responsive static HTML and CSS website designed to inform those seeking help and support about Mental Health issues and how to recognise symptoms. 
 
 # Wireframes
-![wireframe](assets/images/wireframe.pdf)
+![wireframe1](assets/images/wireframe1.png)
