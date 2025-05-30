@@ -5,8 +5,7 @@
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --primary-font: "Inter", sans-serif;
-    --secondary-font: "Headland One", ;
+    --secondary-font: "Headland One",sans-serif;
     --primary-color: #9E8576; /* Beaver */
     --secondary-color:#7A542E ; /* desert sand */
     --highlight-color:#2A2E45; /* space cadet */
@@ -18,8 +17,13 @@ body {
     
 }
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     min-height: 100vh;
 }
 
@@ -43,9 +47,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom .nav-link.active {
     font-weight: bold;
 }
-
+.nav-link {
+    color:var(--highlight-color)
+}
 .navbar-brand {
-    font-weight:600;
+    font-weight:900;
+    color:var(--highlight-color)
 }
 
 /* Make the navbar sticky */
@@ -59,6 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style the hero section */
 .hero {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),  url('../images/hero\ 2.png');
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../images/hero\ 2.png');
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../images/hero\ 2.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact i {
-    color:var(--secondary-color);
+    color:whitesmoke;
     font-size:1.2rem;
     margin-right:15px;
 }
