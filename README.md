@@ -91,11 +91,23 @@ The website includes several features, which are detailed below.
 
 - All pages Footer
     - The footer is consistent throughout all pages and includes social media links for Facebook, Twitter, Instagram, and Opening and Closing times. 
-    
+
 ![footersection](assets/images/footersection.png)
 
 - Success Page
     - This part of the website thanks users for their submission, and clicking the button brings them back to the home page. The links in the nav bar at the top of the page also work for that purpose.
 
 ![thankyousection](assets/images/thankyousection.png)
+
+# Features left to Implement
+
+- Client Testmonials
+
+    - Testimonies of client could be good features to have, in order to prove accoutnability of the organisation.
+
+- Newsletter Sign-up Form
+
+    - Newsletter sign up would allow users to show there intersted in the services are provided. 
+
+
 
