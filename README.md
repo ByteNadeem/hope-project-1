@@ -139,3 +139,11 @@ All HTML and CSS code was validated using the W3C Markup Validation Service and 
 
 ![Validation](assets/images/Validation.png)
 
+# Deployment 
+- In the GitHub repository, navigate to the Settings tab.
+- Scroll down until GitHub Pages is found. 
+- From the source section drop-down menu, select the main branch.
+- Once the main branch has been selected, hit the save button.
+- Finally, when the page is refreshed, a detailed ribbon display will indicate the successful deployment.
+
+
