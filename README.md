@@ -110,4 +110,14 @@ The website includes several features, which are detailed below.
     - Newsletter sign up would allow users to show there intersted in the services are provided. 
 
 
+# Technologies Used
+
+    - HTML
+    - CSS
+    - Bootstrap
+    - Favcon.io
+    - Fontawesome
+    - Squoosh
+    - Code from Walkthrough Projects
+    - LMS
 
