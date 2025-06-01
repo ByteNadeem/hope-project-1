@@ -111,13 +111,31 @@ The website includes several features, which are detailed below.
 
 
 # Technologies Used
+- HTML
+- CSS
+- Bootstrap
+- Favcon.io
+- Fontawesome
+- Squoosh
+- Code from Walkthrough Projects
+- LMS
 
-    - HTML
-    - CSS
-    - Bootstrap
-    - Favcon.io
-    - Fontawesome
-    - Squoosh
-    - Code from Walkthrough Projects
-    - LMS
+# Testing
+
+- Code Validation 
+
+All HTML and CSS code was validated using the W3C Markup Validation Service and W3C CSS Validation Service, respectively. The results are as follows:
+
+## HTML Validation:
+
+- six errors were found in the HTML code and corrected using copilot. All elements are properly nested and closed, ensuring a well-structured document.
+
+![picture2](assets/images/Picture2.jpg)
+
+
+![Copilotdebug](assets/images/Copilotdebug.png)
+
+## After Debugging
+
+![Validation](assets/images/Validation.png)
 
