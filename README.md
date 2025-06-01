@@ -36,7 +36,7 @@ Artificial Intelligence played a significant role in the development of this pro
 
 - Text & Content
 
-        - Used Google searcha and AI-Copilot was used to search all the text content, suggestions, definitions, descriptions etc.
+    - Used Google searcha and AI-Copilot was used to search all the text content, suggestions, definitions, descriptions etc.
 
 
 By utilising AI, the project was able to achieve a higher level of efficiency, creativity, and accessibility.
@@ -57,6 +57,7 @@ The website includes several features, which are detailed below.
 - Navigation Bar 
 
     - The navigation bar, located at the top of the page, provides links to all the main sections of the website. It helps users navigate between different pages and indicates the current active page with an underline. The navigation bar is fully responsive and adjusts its layout based on the screen size to ensure a seamless user experience across all devices.
+
 ![navbar](assets/images/navbar.png)
 
 - Hero Image
@@ -76,6 +77,7 @@ The website includes several features, which are detailed below.
 
 - Managing Stress Section
         - It contains information about how to manage stress.
+
 ![stresssection](assets/images/stresssection.png)
 
 - Cotact Us
@@ -89,6 +91,7 @@ The website includes several features, which are detailed below.
 
 - All pages Footer
     - The footer is consistent throughout all pages and includes social media links for Facebook, Twitter, Instagram, and Opening and Closing times. 
+    
 ![footersection](assets/images/footersection.png)
 
 - Success Page
