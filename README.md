@@ -139,6 +139,24 @@ All HTML and CSS code was validated using the W3C Markup Validation Service and 
 
 ![Validation](assets/images/Validation.png)
 
+
+# Lighthouse 
+
+Lighthouse was used to test the performance, accessibility, best practices, and SEO of the website. The results are as follows:
+
+- Before 
+
+![ligthhouse1](assets/images/lighthouse1.png)
+
+- After
+
+![lighthouse](assets/images/lighthouse.png)
+
+- Note:
+
+    - Using squoosh to resize some of the images and suggestions made in LCP to improve the format in hero section have increased the performance by 11%. There is a room to improve and will be working on it. 
+
+
 # Deployment 
 - In the GitHub repository, navigate to the Settings tab.
 - Scroll down until GitHub Pages is found. 
