@@ -1,22 +1,30 @@
-/*Google fonts */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 
-@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Headland One",sans-serif;
+    --secondary-font: "Headland One", serif;
+
     --primary-color: #9E8576; /* Beaver */
-    --secondary-color:#7A542E ; /* desert sand */
-    --highlight-color:#2A2E45; /* space cadet */
-    --highlight-color-light: #A499BE;  /*Rose Quartz*/
+    --secondary-color: #7A542E; /* Desert Sand */
+    --highlight-color: #2A2E45; /* Space Cadet */
+    --highlight-color-light: #A499BE; /* Rose Quartz */
+    --text-light: #FFFFFF;
+    --text-dark: #1A1A1A;
+    --accent-color: #005f73; /* Optional: for buttons or links */
 }
+
 /* Global Styles */
 body {
-    font-family:var(--primary-font);
-    
-}
-body {
+    font-family: var(--primary-font);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -25,89 +33,175 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     min-height: 100vh;
+    color: var(--text-dark);
+    background-color: #fff;
+    line-height: 1.6;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--secondary-font);
+    font-family: var(--secondary-font);
+    color: var(--highlight-color);
 }
-.sub-heading-color h1, h2, h3,h4,h5, h6 {
 
- color: var(--highlight-color);
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
+    outline: 2px solid var(--highlight-color);
+    outline-offset: 2px;
 }
 
 /* Navbar Styles */
-
 #navbar {
-
     background-color: var(--primary-color);
 }
 
-
-.navbar-custom .nav-link.active {
-    font-weight: bold;
-}
+.navbar-brand,
 .nav-link {
-    color:var(--highlight-color)
-}
-.navbar-brand {
-    font-weight:900;
-    color:var(--highlight-color)
+    color: var(--text-light) !important;
 }
 
-/* Make the navbar sticky */
+.navbar-brand:hover,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--highlight-color-light) !important;
+}
+
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-
-
-/* Style the hero section */
+/* Hero Section */
 .hero {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/hero.webp');
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../images/hero\ 2.png');
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../images/hero\ 2.png');
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/hero 2.png');
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero 2.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero 2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #FFEBD4;
+    color: var(--text-light);
     padding: 8rem 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-
-/*Footer Styles */
-
-#contact h2 {
-    color:var(--highlight-color);
+/* Buttons */
+.btn-info {
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--text-light);
 }
 
+.btn-info:hover,
+.btn-info:focus {
+    background-color: #0a9396;
+    color: var(--text-light);
+    outline: 2px solid var(--highlight-color);
+}
+
+/* Footer */
 #contact {
-    background-color:#9E8576;
-    color:white;
-        padding-bottom: 3rem;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding-bottom: 3rem;
+}
+
+#contact h2,
+#contact h3 {
+    color: var(--highlight-color-light);
 }
 
 #contact i {
-    color:whitesmoke;
-    font-size:1.2rem;
-    margin-right:15px;
-}
-
-#contact .social-links i:hover {
-    color: var(--highlight-color);
+    color: var(--text-light);
+    font-size: 1.2rem;
+    margin-right: 15px;
 }
 
 #contact .social-links i {
-    color:whitesmoke;
+    color: var(--text-light);
     font-size: 1.9rem;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
-.tr {
-    color:var(--highlight-color);
+
+#contact .social-links i:hover {
+    color: var(--highlight-color-light);
 }
 
+/* Utility Classes */
+.table-success th,
+.table-success td {
+    color: var(--text-dark);
+}
+
+/* Accessibility Enhancements */
+:focus {
+    outline: 2px dashed var(--highlight-color);
+    outline-offset: 3px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .col-md-4 {
+    margin-bottom: 2rem;
+  }
+
+  #contact .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+
+  #contact address,
+  #contact p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
 
