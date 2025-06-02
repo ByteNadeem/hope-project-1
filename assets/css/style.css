@@ -14,7 +14,7 @@
     --secondary-font: "Headland One", serif;
 
     --primary-color: #9E8576; /* Beaver */
-    --secondary-color: #7A542E; /* Desert Sand */
+    --secondary-color: #7A542E; /* Coyote */
     --highlight-color: #2A2E45; /* Space Cadet */
     --highlight-color-light: #A499BE; /* Rose Quartz */
     --text-light: #FFFFFF;
@@ -25,13 +25,9 @@
 /* Global Styles */
 body {
     font-family: var(--primary-font);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     min-height: 100vh;
     color: var(--text-dark);
     background-color: #fff;
